@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Godi - Ligepedia</title>
+  <link rel="stylesheet" href="../css/style.css" />
+
+
+</head>
+
+<body class="home">
+
+  <header class="header">
+    <div class="logo-card">
+      <a href="../html/index.html">
+        <img src="../images/logo.png" alt="Ligepedia Logo" class="logo" />
+      </a>
+    </div>
+
+    <nav class="nav" aria-label="Hauptnavigation">
+      <a href="../html/index.html" class="nav__link">Home</a>
+      <a href="../html/godi.html" class="nav__link is-active">Godi</a>
+      <a href="../html/ueber-uns.html" class="nav__link">Über uns</a>
+      <a href="../html/impressum.html" class="nav__link">Impressum</a>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <!-- Zwei Boxen wie bisher -->
+    <section class="grid-2">
+
+      <!-- Box 1: Publikationen -->
+      <article class="card card--feature">
+        <div class="feature">
+          <div class="feature__text">
+            <h2 class="feature__title">Publikationen</h2>
+          </div>
+
+          <div class="feature__image-wrap">
+            <img class="feature__image" src="../images/publigodi.png" alt="Füllfeder auf Papier" />
+          </div>
+
+          <a class="feature__btn" href="../html/publikationengodi.html">Meine Publikationen</a>
+        </div>
+      </article>
+
+      <!-- Box 2: Aktuelles -->
+      <article class="card card--feature">
+        <div class="feature">
+          <div class="feature__text">
+            <h2 class="feature__title">Aktuelles</h2>
+          </div>
+
+          <div class="feature__image-wrap">
+            <img class="feature__image" src="../images/publigodi2.png" alt="Buch bei Kerzenlicht" />
+          </div>
+
+          <a class="feature__btn" href="#">aktuelles</a>
+        </div>
+      </article>
+
+    </section>
+
+   <!-- ZEITREISE: horizontales Scroll-Band -->
+<section class="time-travel" aria-label="Zeitreise durch Publikationen">
+  <header class="time-travel__intro">
+    <h2 class="time-travel__title">Zeitreise </h2>
+    <p class="time-travel__subtitle">Von 1996 bis 2007 – ausgewählte Artikel.</p>
+  </header>
+
+  <div class="time-travel__top">
+    <div class="time-travel__range">
+    </div>
+    <div class="time-travel__hint">Scroll nach rechts (oder Mausrad) 🡒</div>
+  </div>
+
+  <div class="time-travel__scroller" id="timeTravelScroller">
+    <div class="time-travel__track">
+
+      <!-- 1996 -->
+      <article class="stop">
+        <div class="stop__dot" aria-hidden="true"></div>
+        <div class="stop__card">
+          <div class="stop__year">1996</div>
+          <div class="stop__meta">Einsiedler Anzeiger - 14.06.1996</div>
+          <h3 class="stop__title">Artikel im Einsiedler Anzeiger</h3>
+          <p class="stop__teaser">Artikel zum Thema Völkermord.</p>
+          <a class="stop__link" href="völkermord_compressed.pdf">PDF öffnen</a>
+        </div>
+      </article>
+
+      <!-- 1998-03-19 -->
+      <article class="stop">
+        <div class="stop__dot" aria-hidden="true"></div>
+        <div class="stop__card">
+          <div class="stop__year">1998</div>
+          <div class="stop__meta">Anzeiger der Stadt Kloten - 19.03.1998</div>
+          <h3 class="stop__title">Beitrag im Anzeiger der Stadt Kloten</h3>
+          <p class="stop__teaser">Artikel zur Geschichte und gesellschaftlichen Fragestellungen.</p>
+          <a class="stop__link" href="solidarität_compressed.pdf">PDF öffnen</a>
+        </div>
+      </article>
+
+
+      <!-- 1998-05-28 -->
+      <article class="stop">
+        <div class="stop__dot" aria-hidden="true"></div>
+        <div class="stop__card">
+          <div class="stop__year">1998</div>
+          <div class="stop__meta">Anzeiger der Stadt Kloten – 28.05.1998</div>
+          <h3 class="stop__title">Zweiter Beitrag im Anzeiger der Stadt Kloten</h3>
+          <p class="stop__teaser">Fortführung der Auseinandersetzung mit historischen Themen.</p>
+          <a class="stop__link" href="fortschritt_compressed.pdf">PDF öffnen</a>
+        </div>
+      </article>
+
+      <!-- 1998-10-09 -->
+      <article class="stop">
+        <div class="stop__dot" aria-hidden="true"></div>
+        <div class="stop__card">
+          <div class="stop__year">1998</div>
+          <div class="stop__meta">Tages-Anzeiger - 09.10.1998</div>
+          <h3 class="stop__title">Artikel im Tages-Anzeiger</h3>
+          <p class="stop__teaser">Veröffentlichung in einer überregionalen Zeitung.</p>
+          <a class="stop__link" href="friaul-1_compressed.pdf">PDF öffnen</a>
+        </div>
+      </article>
+
+      <!-- 2007 -->
+      <article class="stop">
+        <div class="stop__dot" aria-hidden="true"></div>
+        <div class="stop__card">
+          <div class="stop__year">2007</div>
+          <div class="stop__meta">Einsiedler Anzeiger - 26.06.2007</div>
+          <h3 class="stop__title">Weiterer Beitrag im Einsiedler Anzeiger</h3>
+          <p class="stop__teaser">Späterer Artikel - thematische Weiterentwicklung.</p>
+          <a class="stop__link" href="Artikel EA-compressed.pdf">PDF öffnen</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">© 2026</div>
+
+      <nav class="footer-links" aria-label="Footer">
+        <a href="../html/ueber-uns.html">Über uns</a>
+        <a href="../html/impressum.html">Impressum</a>
+        <a href="../html/datenschutz.html">Datenschutz</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+(() => {
+  const scroller = document.getElementById("timeTravelScroller");
+  if (!scroller) return;
+
+  const hasHorizontalOverflow = () =>
+    scroller.scrollWidth > scroller.clientWidth;
+
+  const isScrollable = () =>
+    hasHorizontalOverflow() &&
+    (scroller.scrollLeft > 0 ||
+     scroller.scrollLeft < scroller.scrollWidth - scroller.clientWidth);
+
+  const onWheel = (e) => {
+    if (!hasHorizontalOverflow()) return;
+
+    // Nur reagieren wenn hauptsächlich vertikale Bewegung
+    if (Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
+
+    // Wenn wir am Rand sind → normales Seiten-Scroll erlauben
+    const atStart = scroller.scrollLeft <= 0;
+    const atEnd =
+      scroller.scrollLeft >= scroller.scrollWidth - scroller.clientWidth - 1;
+
+    if ((e.deltaY < 0 && atStart) || (e.deltaY > 0 && atEnd)) {
+      return;
+    }
+
+    e.preventDefault();
+
+    scroller.scrollBy({
+      left: e.deltaY,
+      behavior: "smooth"
+    });
+  };
+
+  scroller.addEventListener("wheel", onWheel, { passive: false });
+})();
+</script>
+
+  <!-- Script ganz unten, damit das DOM sicher geladen ist -->
+  <script src="../js/zeitreise.js"></script>
+
+</body>
+</html>
